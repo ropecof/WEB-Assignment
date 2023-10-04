@@ -1,0 +1,119 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    background-image: url('wallpaperflare.com_wallpaper.jpg'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.parallax {
+    background-image: url('night-sky-clouds-sunset-scenery-digital-art-hd-wallpaper-uhdpaper.com-770@0@i.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #ddd;
+    padding: 10px;
+    justify-content: center;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item a img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+.image img {
+    max-width: 40%;
+    text-align: center;
+}
+
+.grid-item a img:hover {
+    transform: scale(1.2);
+}
+
+.grid-item h2 {
+    font-size: 24px;
+}
+
+.grid-item p {
+    margin-top: 10px;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.navigation a img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s;
+}
+
+.navigation a img:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    padding: 20px;
+    color: #ddd;
+}
+
+.video {
+    text-align: center;
+}
+
+.tips {
+    margin-top: 20px;
+    color: #ddd;
+}
+
+.tips h2 {
+    font-size: 24px;
+}
+
+.influencers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.influencer {
+    text-align: center;
+    margin: 20px;
+}
+
+.influencer img {
+    max-width: 20%;
+    border-radius: 50%;
+}
